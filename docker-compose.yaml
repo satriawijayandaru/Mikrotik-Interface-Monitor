@@ -1,0 +1,6 @@
+services:
+  mikrotik-api-monitor:
+    image: satriawijayandaru/mikrotik-interface-monitor:v1.0
+    env_file:
+      - .env
+    restart: always
